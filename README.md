@@ -1,6 +1,9 @@
 # Tezos RPC Node on WSL
 Steps to run a local RPC Node using Windows Subsystem for Linux on Windows 10
 
+## TODO
+[ ] Setup WSL to have a static IP
+
 ## Installing WSL2 and Ubuntu
 
 #### 1) Turn on Windows Subsystem for Linux and Virtual Machine Platform
@@ -138,3 +141,9 @@ Run the following command using the WSL IP address.
 * In the RPC base URL add `http://your_WSL_IP:8732`using the WSL IP that you found above
 * Leave the Lambda View contract blank
 * Click `Add Network`
+
+
+#### Credits
+[OpenTezos](https://opentezos.com/deploy-a-node)
+[Baking Benjamins](https://docs.bakingbenjamins.com/baking/setup-tezos-node-with-rpc)
+[Tezos Dev Resources](https://tezos.gitlab.io/user/node-configuration.html#rpc-parameters)
